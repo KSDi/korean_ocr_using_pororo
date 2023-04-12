@@ -81,6 +81,6 @@ class PororoOcr:
 
 if __name__ == "__main__":
     ocr = PororoOcr()
-    image_path = input("Enter image path: ")
-    text = ocr.run_ocr(image_path, debug=True)
+    #image_path = input("Enter image path: ")
+    text = ocr.run_ocr('assets/images/test_image_1.jpg', debug=True)
     print('Result :', text)
